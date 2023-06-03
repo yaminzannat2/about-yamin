@@ -1,0 +1,265 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #EEE ;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(226, 203, 172);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+
+
+}
+.profile-photo{
+
+    width: 5rem;
+    border: 3px;
+    border-radius: 50%;
+    float: left;
+
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+
+}
+h1,h2,h3,h4,h5,h6{
+
+    color: dimgray;
+}
+
+.header-info{
+
+    float:right;
+    padding: 20px;
+}
+
+.header-info a{
+
+ text-decoration: none;
+ color: teal;
+ font-weight: bold;
+}
+
+.header-info a:hover{
+
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear{
+
+    clear: both;
+}
+
+hr{
+    border: solid black 2.5px;
+    margin: 15px auto;
+    border-bottom: none;
+}
+
+/*--------------------
+personal section starts
+----------------------*/
+#personal-section{
+
+
+}
+.content{
+
+margin: 20px;
+}
+
+.left-div{
+
+ width: 50%;
+ float: left;
+}
+
+.right-div{
+
+width: 50% ;
+float: right;
+}
+
+.common-hr{
+    border: solid black 1.5px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*--------------------
+education section starts
+----------------------*/
+#education-section{
+
+}
+.degree{
+    font-weight: bold;
+    color: blueviolet;
+    font-style: italic;
+    padding: 5px;
+    
+}
+/*--------------
+skill section
+---------------*/
+
+#skill-section{
+
+
+}
+
+.skill-type{
+
+    font-style: italic;
+    color: blueviolet;
+    font-weight: bold;
+    line-height: 170%;
+    
+    
+}
+/*--------------
+project section
+---------------*/
+#project-section{
+
+
+}
+.project-name{
+
+    font-style: italic;
+    color: blueviolet;
+    font-weight: bold;
+    line-height: 170%;
+}
+/*--------------
+honours section
+---------------*/
+#honours-section{
+
+}
+
+.honour-type{
+
+    font-style: italic;
+    color: blueviolet;
+    font-weight: bold;
+    line-height: 170%;
+}
+/*---------------------------------
+exta curriculam activities section
+------------------------------------*/
+#extra-activities-section{
+
+
+}
+
+.activity-role-left{
+
+    font-style: italic;
+    color: blueviolet;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+}
+
+.event-right{
+float: right;
+width: 50%;
+
+}
+
+/*----------------
+references
+----------------*/
+#references-section{
+
+}
+
+.reference-info-left{
+
+float: left;
+width: 52%;
+}
+.reference-info-right{
+
+    float: right;
+    width: 48%;
+}
+.ref-name{
+    color: blueviolet;
+    font-style: italic;
+    line-height: 170%;
+}
+.email{
+    color: black;
+    text-decoration: none;
+}
+.email:hover{
+
+    text-decoration: underline;
+    color: tomato;
+}
+/*---------------------
+contact section
+----------------------*/
+
+#contact-section{
+
+
+}
+.contact {
+
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.contact:hover{
+text-decoration: underline;
+
+color: tomato;
+}
+
+/*----------------
+footer-section 
+---------------*/
+
+.bottom-container {
+
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.bottom-container a{
+
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+.bottom-container a:hover{
+
+    color: tomato;
+    text-decoration: underline;
+    
+}
+.bottom-container p{
+
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
